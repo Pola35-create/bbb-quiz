@@ -6,13 +6,17 @@ if (!isset($_GET['action'])) {
     exit;
 }
 
+// Absolute paths to JSON files in the data directory
+$questionsFile = __DIR__ . '/../data/questions.json';
+$leaderboardFile = __DIR__ . '/../data/leaderboard.json';
+
 // 1. Return 10 random questions
 if ($_GET['action'] === 'get_questions') {
-    if (!file_exists('questions.json')) {
+    if (!file_exists($questionsFile)) {
         echo json_encode(['error' => 'Questions file missing']);
         exit;
     }
-    $data = json_decode(file_get_contents('questions.json'), true);
+    $data = json_decode(file_get_contents($questionsFile), true);
     shuffle($data);
     $selected = array_slice($data, 0, 10);
 
@@ -63,7 +67,6 @@ if ($_GET['action'] === 'save_score' && $_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($name)) $name = 'Névtelen';
 
-    $leaderboardFile = 'leaderboard.json';
     $leaderboard = [];
 
     if (file_exists($leaderboardFile)) {
@@ -82,7 +85,14 @@ if ($_GET['action'] === 'save_score' && $_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $leaderboard = array_slice($leaderboard, 0, 100);
 
-    file_put_contents($leaderboardFile, json_encode($leaderboard, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    // Save and verify write success
+    $result = file_put_contents($leaderboardFile, json_encode($leaderboard, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+    if ($result === false) {
+        http_response_code(500);
+        echo json_encode(['error' => 'Failed to write to leaderboard file. Check folder write permissions.']);
+        exit;
+    }
 
     echo json_encode(['success' => true]);
     exit;
@@ -90,7 +100,6 @@ if ($_GET['action'] === 'save_score' && $_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // 4. Retrieve leaderboard
 if ($_GET['action'] === 'get_leaderboard') {
-    $leaderboardFile = 'leaderboard.json';
     $leaderboard = [];
     if (file_exists($leaderboardFile)) {
         $leaderboard = json_decode(file_get_contents($leaderboardFile), true) ?? [];

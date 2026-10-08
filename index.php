@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Burger || Blues || Beer Kvíz</title>
     <link rel="icon" type="image/jpeg" href="logo.jpg" sizes="32x32">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -76,6 +76,6 @@
     </div>
 </div>
 
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

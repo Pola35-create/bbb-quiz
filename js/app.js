@@ -38,7 +38,7 @@ async function startGame() {
     currentQIndex = 0;
 
     try {
-        const res = await fetch('api.php?action=get_questions');
+        const res = await fetch('php/api.php?action=get_questions');
         questions = await res.json();
 
         if (!questions || questions.length === 0) {
@@ -120,7 +120,7 @@ async function handleAnswer(selectedIndex, qId, clickedBtn) {
     const questionScore = Math.round(500 * timeEarnedRatio);
 
     try {
-        const res = await fetch('api.php?action=check_answer', {
+        const res = await fetch('php/api.php?action=check_answer', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question_id: qId, answer_index: selectedIndex })
@@ -157,7 +157,7 @@ function handleTimeout() {
     playBeep(180, 0.4);
 
     const q = questions[currentQIndex];
-    fetch('api.php?action=check_answer', {
+    fetch('php/api.php?action=check_answer', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ question_id: q.id, answer_index: -1 })
@@ -179,7 +179,7 @@ async function finishGame() {
 
     showView('view-result');
 
-    await fetch('api.php?action=save_score', {
+    await fetch('php/api.php?action=save_score', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: playerName, score: totalScore })
@@ -188,7 +188,7 @@ async function finishGame() {
 
 async function showLeaderboard() {
     try {
-        const res = await fetch('api.php?action=get_leaderboard');
+        const res = await fetch('php/api.php?action=get_leaderboard');
         const data = await res.json();
 
         const list = document.getElementById('leaderboard-list');
