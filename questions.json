@@ -1,302 +1,122 @@
 [
   {
     "id": 1,
-    "question": "Hol rendezik meg a Burger || Blues || BeerFest-et Szegeden?",
-    "answers": ["Dóm tér", "Erzsébet-liget", "Széchenyi tér", "Ligetfürdő"],
-    "correct": 1
-  },
-  {
-    "id": 2,
-    "question": "Melyik zenekar lép fel péntek 19:00-kor a fesztiválon?",
-    "answers": ["Crossfire", "Takáts Tamás Blues Band", "Pablo and the Escobars", "Ask The Dust"],
-    "correct": 1
-  },
-  {
-    "id": 3,
-    "question": "Mennyibe kerül a sajtburger a Burger Happy Hour alatt?",
-    "answers": ["1500 Ft", "2000 Ft", "2500 Ft", "3000 Ft"],
-    "correct": 2
-  },
-  {
-    "id": 4,
     "question": "Hány féle kézműves és nagyüzemi sör várja a látogatókat a fesztiválon?",
     "answers": ["Több mint 50", "Több mint 100", "Több mint 150", "Több mint 300"],
     "correct": 2
   },
   {
-    "id": 5,
-    "question": "Melyik híd újszegedi lábánál található az Erzsébet-liget?",
-    "answers": ["Bertalan híd", "Belvárosi híd", "Tiszai híd", "Móra híd"],
-    "correct": 1
-  },
-  {
-    "id": 6,
+    "id": 2,
     "question": "Melyik összetevő NEM szükséges egy klasszikus Smash Burger húspogácsa elkészítéséhez?",
     "answers": ["Darált marhahús", "Só", "Bors", "Tojás"],
     "correct": 3
   },
   {
-    "id": 7,
+    "id": 3,
     "question": "Honnan ered eredetileg a Blues zenei műfaj?",
-    "answers": ["Ausztrália", "Egyesült Államok déli államai", "Nagy-Britannia", "Kuba"],
+    "answers": ["Ausztrália", "Egyesült Államok", "Nagy-Britannia", "Kuba"],
     "correct": 1
   },
   {
-    "id": 8,
+    "id": 4,
     "question": "Melyik sörfőzési eljárással készül az IPA (Indian Pale Ale)?",
     "answers": ["Felsőerjesztésű", "Alsóerjesztésű", "Spontán erjesztésű", "Hordós érlelésű Bock"],
     "correct": 0
   },
   {
-    "id": 9,
-    "question": "Milyen különleges workshop foglalkozás érhető el kicsiknek és nagyoknak?",
-    "answers": ["Agyagozás", "Papucshimzés", "Kovácsolás", "Fafaragás"],
-    "correct": 1
-  },
-  {
-    "id": 10,
-    "question": "Melyik sportegyesület játékosaival lehet csocsózni a fesztiválon?",
-    "answers": ["Szegedi Csocsó Egyesület", "Budapesti Csocsó Klub", "Tisza Csocsó SE", "Dél-Alföldi Csocsó Liga"],
+    "id": 5,
+    "question": "Melyik tiszta malátából és komlóból készülő sörtípust hívják 'pilseninek'?",
+    "answers": ["Világos alsóerjesztésű lager", "Barna felsőerjesztésű stout", "Búzasör", "Indian Pale Ale (IPA)"],
     "correct": 0
   },
   {
-    "id": 11,
-    "question": "Melyik tiszta malátából és komlóból készülő sörtípust hívják 'pilseni' típusúnak?",
-    "answers": ["Világos alsóerjesztésű lager", "Barna felsőerjesztésű stout", "Búzasör", "Gyümölcsös lambic"],
-    "correct": 0
-  },
-  {
-    "id": 12,
-    "question": "Melyik tribute zenekar zárja a pénteki napot 21:00-kor?",
-    "answers": ["ZZ Top Tribute", "Creedence Clearwater Reborn", "AC/DC Tribute", "Led Zeppelin Tribute"],
-    "correct": 1
-  },
-  {
-    "id": 13,
-    "question": "Mi a 'Blues Rádió Budapest' zenekar által játszott stílus fő ihletője?",
-    "answers": ["ZZ Top", "Iron Maiden", "Metallica", "Rolling Stones"],
-    "correct": 0
-  },
-  {
-    "id": 14,
-    "question": "Hány másodperced van válaszolni egy kérdésre ebben a játékban?",
-    "answers": ["10 másodperc", "15 másodperc", "20 másodperc", "30 másodperc"],
-    "correct": 1
-  },
-  {
-    "id": 15,
-    "question": "Mennyi a maximális pontszám, amit egyetlen gyors és helyes válaszért kaphatsz?",
-    "answers": ["100 pont", "300 pont", "500 pont", "1000 pont"],
-    "correct": 2
-  },
-  {
-    "id": 16,
+    "id": 6,
     "question": "Milyen típusú buci használatos leggyakrabban a prémium kézműves burgerekhez?",
-    "answers": ["Kifli tészta", "Brioche (kalács) buci", "Rozskenyér", "Pita"],
+    "answers": ["Hagyományos zsemle", "Brioche buci", "Rozskenyér", "Pita"],
     "correct": 1
   },
   {
-    "id": 17,
+    "id": 7,
     "question": "Melyik zenei hangszer a blues műfaj egyik legmeghatározóbb szólóhangszere a gitár mellett?",
-    "answers": ["Szájharmonika (Blues harp)", "Hegedű", "Trombita", "Xilofon"],
+    "answers": ["Szájharmonika", "Hegedű", "Trombita", "Xilofon"],
     "correct": 0
   },
   {
-    "id": 18,
+    "id": 8,
     "question": "Mit jelent a sörök tulajdonságainál az 'IBU' rövidítés?",
-    "answers": ["International Bitterness Units (Keserűségi egység)", "International Beer Union", "Internal Alcohol Unit", "Integrated Brew Utensils"],
+    "answers": ["Keserűségi egység", "Nemzetközi Sörfőző Szövetség", "Belső alkoholtartalom mutató", "Integrált főzési technológia"],
     "correct": 0
   },
   {
-    "id": 19,
-    "question": "Melyik napon nyit a fesztivál 11:00 órakor?",
-    "answers": ["Péntek", "Szombat és Vasárnap", "Csak Szombaton", "Minden nap"],
-    "correct": 1
-  },
-  {
-    "id": 20,
-    "question": "Melyik zenekar lép fel szombaton 21:00-kor?",
-    "answers": ["The Roving Chess Club", "Pablo and the Escobars", "Hangácsi Márton", "Crossfire"],
-    "correct": 1
-  },
-  {
-    "id": 21,
+    "id": 9,
     "question": "Milyen sajt a legnépszerűbb választás a klasszikus amerikai cheeseburgerbe?",
     "answers": ["Cheddar", "Trappista", "Camembert", "Gorgonzola"],
     "correct": 0
   },
   {
-    "id": 22,
-    "question": "Hogyan nevezik a sörfőzés során felhasznált virágzatot, ami a sör kesernyés ízét adja?",
-    "answers": ["Maláta", "Komló", "Élesztő", "Búza"],
-    "correct": 1
+  "id": 10,
+  "question": "Melyik alapanyag felelős elsősorban a sör kesernyés ízéért?",
+  "answers": ["Maláta", "Komló", "Sörélesztő", "Koriander"],
+  "correct": 1
   },
   {
-    "id": 23,
+    "id": 11,
     "question": "Hány ütemből áll a legelismertebb és leggyakoribb blues akkordmenet?",
     "answers": ["8 ütem", "12 ütem", "16 ütem", "24 ütem"],
     "correct": 1
   },
   {
-    "id": 24,
-    "question": "Melyik tömegközlekedési eszközzel NEM lehet megközelíteni az Erzsébet-ligetet?",
-    "answers": ["Busszal", "Trolival", "Villamossal", "Megyasztrádai metróval"],
-    "correct": 3
-  },
-  {
-    "id": 25,
-    "question": "Melyik közismert kocsmai játék versenyét szervezik meg a fesztiválon?",
-    "answers": ["Darts", "Sörpong (Beer Pong)", "Biliárd", "Léghoki"],
-    "correct": 1
-  },
-  {
-    "id": 26,
-    "question": "Milyen állatot formáz meg a rendezvényen kipróbálható szimulátor?",
-    "answers": ["Rodeó bika", "Mechanikus ló", "Dühös medve", "Cápaszimulátor"],
-    "correct": 0
-  },
-  {
-    "id": 27,
-    "question": "Mennyibe kerül a belépő a Burger || Blues || BeerFest fesztiválra?",
-    "answers": ["Ingyenes", "1500 Ft", "3000 Ft", "5000 Ft"],
-    "correct": 0
-  },
-  {
-    "id": 28,
-    "question": "Melyik városban rendezik meg ezt a rendezvényt?",
-    "answers": ["Budapest", "Debrecen", "Szeged", "Pécs"],
-    "correct": 2
-  },
-  {
-    "id": 29,
-    "question": "Pénteken mikor van a Burger Happy Hour?",
-    "answers": ["11-12h", "15-16h", "18-19h", "20-21h"],
-    "correct": 1
-  },
-  {
-    "id": 30,
+    "id": 12,
     "question": "Melyik sörstílusra jellemző a pörkölt maláta, a kávés-csoki aromavilág és sötét szín?",
-    "answers": ["Pilsner", "Stout / Porter", "Weissbier", "Sour Ale"],
+    "answers": ["Pilsner", "Stout", "Búzasör", "Sour Ale"],
     "correct": 1
   },
   {
-    "id": 31,
+    "id": 13,
     "question": "Mi a 'Pulled Pork' burger fő összetevője?",
     "answers": ["Tépett sertéshús", "Marhahúspogácsa", "Grillezett csirkemell", "Vegán sárgarépa"],
     "correct": 0
   },
   {
-    "id": 32,
+    "id": 14,
     "question": "Melyik legendás gitárost nevezik a 'Blues Királyának' (King of Blues)?",
     "answers": ["B.B. King", "Jimi Hendrix", "Eric Clapton", "Stevie Ray Vaughan"],
     "correct": 0
   },
   {
-    "id": 33,
+    "id": 15,
     "question": "Milyen típusú erjesztéssel készül a klasszikus búzasör?",
-    "answers": ["Alsóerjesztésű", "Felsőerjesztésű", "Hidegerjesztésű", "Spontán erjesztés nélküli"],
+    "answers": ["Alsóerjesztés", "Felsőerjesztés", "Hidegerjesztés", "Spontán erjesztés nélküli"],
     "correct": 1
   },
   {
-    "id": 34,
-    "question": "Melyik szombati előadó lép fel 17:30-kor a színpadon?",
-    "answers": ["The Roving Chess Club", "Hangácsi Márton", "Crossfire", "Ask The Dust"],
-    "correct": 1
-  },
-  {
-    "id": 35,
-    "question": "Vasárnap mikor zár be a fesztivál?",
-    "answers": ["18:00", "20:00", "22:00", "24:00"],
-    "correct": 1
-  },
-  {
-    "id": 36,
-    "question": "Mi az a 'Maillard-reakció' a burger húspogácsa sütése során?",
-    "answers": ["A hús kiszáradása", "Kémiai reakció az aminosavak és cukrok között, ami a finom pörzsanyagot adja", "A sajt megolvadása", "A buci megpirítása"],
-    "correct": 1
-  },
-  {
-    "id": 37,
-    "question": "Melyik híres blues előadó duója nyitja a pénteki színpadi programot 17:00-kor?",
-    "answers": ["Fekete Jenő - Horváth Misi Duo", "Takáts Tamás Duo", "Crossfire Duo", "Hangácsi Duo"],
-    "correct": 0
-  },
-  {
-    "id": 38,
+    "id": 16,
     "question": "Melyik országból származik a híres Guinness sör?",
     "answers": ["Skócia", "Írország", "Anglia", "Németország"],
     "correct": 1
   },
   {
-    "id": 39,
-    "question": "Mit jelent az, ha egy sör 'Pasteurizálatlan'?",
-    "answers": ["Nem tartalmaz komlót", "Nincs hőkezelve, így frissebb, élőflórásabb ízű", "Alkoholmentes", "Szénsavasítás nélkül készült"],
+    "id": 17,
+    "question": "Mit jelent az, ha egy sör 'Pasztőrözetlen'?",
+    "answers": ["Nem tartalmaz komlót", "Nincs hőkezelve", "Alkoholmentes", "Szénsavasítás nélkül készült"],
     "correct": 1
   },
   {
-    "id": 40,
-    "question": "Hány kérdésből áll egy teljes kvízjáték ezen a felületen?",
-    "answers": ["5", "10", "15", "20"],
-    "correct": 1
-  },
-  {
-    "id": 41,
-    "question": "Melyik szósz képezi az ikonikus klasszikus 'BBQ burger' alapszószát?",
-    "answers": ["Barbecue szósz", "Majonéz", "Ketchup és Tartármártás", "Fokhagymás tejföl"],
-    "correct": 0
-  },
-  {
-    "id": 42,
+    "id": 18,
     "question": "Melyik híres gitáros játszott a 'Texas Blues' stílusban és vált ikonikussá széles karimájú kalapjáról?",
     "answers": ["Stevie Ray Vaughan", "Robert Johnson", "Muddy Waters", "John Lee Hooker"],
     "correct": 0
   },
   {
-    "id": 43,
-    "question": "Melyik napon lép fel a 'Crossfire' zenekar?",
-    "answers": ["Péntek", "Szombat", "Vasárnap", "Hétfő"],
-    "correct": 1
-  },
-  {
-    "id": 44,
-    "question": "Melyik zenekar kezdi a vasárnapi koncertsorozatot 15:00-kor?",
-    "answers": ["Ask The Dust", "Blues Rádió Budapest", "Pablo and the Escobars", "The Roving Chess Club"],
-    "correct": 0
-  },
-  {
-    "id": 45,
-    "question": "Milyen szavazás zajlik a kijelölt kereskedőknél a fesztivál ideje alatt?",
-    "answers": ["A fesztivál legjobb burgere szavazás", "A legjobb sör szavazás", "A legjobb gitáros szavazás", "A legszebb stand szavazás"],
-    "correct": 0
-  },
-  {
-    "id": 46,
-    "question": "Mi a 'Craft Beer' kifejezés magyar megfelelője?",
-    "answers": ["Kézműves sör", "Nagyüzemi sör", "Sörkoncentrátum", "Házi szörp"],
-    "correct": 0
-  },
-  {
-    "id": 47,
+    "id": 19,
     "question": "Melyik alapanyag felelős a sörben található alkohol és szén-dioxid megtermeléséért?",
     "answers": ["Sörélesztő", "Komló", "Rizs", "Citromsav"],
     "correct": 0
   },
   {
-    "id": 48,
-    "question": "Milyen hivatalos e-mail címen lehet jelentkezni kereskedőként vagy információért?",
-    "answers": ["info@cityfest.hu", "burger@szeged.hu", "bluesfest@gmail.com", "beer@erzsebetliget.hu"],
-    "correct": 0
-  },
-  {
-    "id": 49,
-    "question": "Milyen kategóriájú ételállomások várják a látogatókat a helyszínen?",
-    "answers": ["Színes foodtruckok", "Menza pultok", "Kizárólag önkiszolgáló étkezdék", "Kifőzdék"],
-    "correct": 0
-  },
-  {
-    "id": 50,
-    "question": "Mi történik, ha letelik a 15 másodperces időkeret egy kérdésnél?",
-    "answers": ["0 pontot kapsz és lép a következő kérdésre", "Kapsz még 10 másodpercet", "Újraindul a játék", "Kiválasztja a helyes választ automatikusan 500 pontért"],
-    "correct": 0
+    "id": 20,
+    "question": "Melyik amerikai város tekinthető az elektromos blues stílus szülőhazájának?",
+    "answers": ["New Orleans", "Chicago", "Memphis", "Nashville"],
+    "correct": 1
   }
 ]

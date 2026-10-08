@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Burger || Blues || BeerFest Kvíz</title>
+    <title>Burger || Blues || Beer Kvíz</title>
+    <link rel="icon" type="image/jpeg" href="logo.jpg" sizes="32x32">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
     <div class="header">
-        <h1>Burger || Blues || Beer</h1>
-        <p>Szeged • Erzsébet-Liget</p>
+        <img src="logo.jpg" alt="BBB Logo" class="header-logo">
+        <div class="header-text">
+            <h1>Burger || Blues || Beer</h1>
+            <p>Szeged • Erzsébet-Liget</p>
+        </div>
     </div>
 
     <!-- HOME VIEW -->

@@ -45,24 +45,37 @@ body {
 }
 
 .header {
-    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 14px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
-.header h1 {
-    font-size: 1.8rem;
+.header-logo {
+    height: 52px;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.header-text h1 {
+    font-size: 1.5rem;
     background: linear-gradient(45deg, var(--accent-orange), var(--accent-yellow));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 1px;
+    line-height: 1.1;
 }
 
-.header p {
+.header-text p {
     color: var(--accent-blue);
-    font-size: 0.95rem;
-    margin-top: 4px;
+    font-size: 0.85rem;
+    margin-top: 2px;
     font-weight: 600;
 }
 
